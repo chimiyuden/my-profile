@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-
+import myPhoto from "../assets/myPhoto.png";
 const Hero = () => {
   const [typedText, setTypedText] = useState("");
   const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);
@@ -29,6 +29,17 @@ const Hero = () => {
   return (
     <section className="hero-section">
       <div className="hero-container">
+        <div className="profile-image-container">
+          <img
+            src={myPhoto}
+            alt="Chimi Yuden"
+            className="profile-image"
+            onError={(e) => {
+              e.target.src = "/images/default-profile.jpg"; // Fallback image
+            }}
+          />
+        </div>
+
         <div className="hero-terminal">
           <div className="terminal-header">
             <div className="terminal-controls">

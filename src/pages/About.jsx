@@ -6,10 +6,10 @@ const About = () => {
   const isInView = useInView(ref, { once: true, amount: 0.1 });
 
   const skills = [
-    { name: "React.js", level: 65 },
+    { name: "React.js", level: 50 },
     { name: "CSS", level: 65 },
     { name: "JavaScript", level: 50 },
-    { name: "Node.js", level: 65 },
+    { name: "Node.js", level: 50 },
   ];
 
   return (

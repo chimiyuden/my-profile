@@ -18,7 +18,7 @@ const Footer = () => {
             <span className="social-text">GitHub</span>
           </a>
           <a
-            href="https://linkedin.com/in/chimi-yuden"
+            href="https://www.linkedin.com/in/chimi-yuden-7a6260301?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
@@ -30,7 +30,7 @@ const Footer = () => {
             <span className="social-text">LinkedIn</span>
           </a>
           <a
-            href="mailto:chimi@example.com"
+            href="mailto:chimiyuden19@gmail.com"
             aria-label="Email"
             className="social-link"
           >
