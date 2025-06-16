@@ -1185,20 +1185,6 @@ a:hover {
 }
 
 /* ======================
-   Layout Adjustments
-   ====================== */
-.hero-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2rem 1rem;
-}
-
-.hero-terminal {
-  margin-top: 1rem;
-}
-
-/* ======================
    Fallback Styles
    ====================== */
 @supports not (object-fit: cover) {
