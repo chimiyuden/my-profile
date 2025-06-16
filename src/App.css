@@ -100,7 +100,7 @@
 .hero-terminal {
   width: 100%;
   max-width: 700px;
-  background-color: #5D4037; /* Rich brown */
+  background-color: #a08373; /* Rich brown */
   border-radius: 8px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   overflow: hidden;
@@ -125,15 +125,15 @@
 }
 
 .control-dot.red {
-  background-color: #8D6E63; /* Medium brown */
+  background-color: rgb(233, 106, 106); /* Medium brown */
 }
 
 .control-dot.yellow {
-  background-color: #A1887F; /* Lighter brown */
+  background-color: rgb(219, 219, 135); /* Lighter brown */
 }
 
 .control-dot.green {
-  background-color: #BCAAA4; /* Lightest brown */
+  background-color: rgb(115, 228, 115); /* Lightest brown */
 }
 
 .terminal-body {
@@ -159,7 +159,7 @@
 
 .typing-text {
   font-size: 1.2rem;
-  color: #A1887F; /* Lighter brown */
+  color: #722a10; /* Lighter brown */
   min-height: 1.5em;
   margin: 1rem 0;
 }
@@ -184,8 +184,8 @@
 
 /* ===== BROWN-THEMED NAVBAR ===== */
 .elegant-navbar {
-  background-color: #5D4037; /* Rich brown */
-  color: #EFEBE9; /* Light beige text */
+  background-color: #b99d94; /* Rich brown */
+  color: #b6704c; /* Light beige text */
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -212,11 +212,11 @@
 
 .logo-icon {
   font-size: 1.5rem;
-  color: #D7CCC8; /* Light brown icon */
+  color: #9b5d46; /* Light brown icon */
 }
 
 .logo-text {
-  background: linear-gradient(90deg, #8D6E63, #BCAAA4); /* Brown gradient */
+  background: linear-gradient(90deg, #7e5d51, #9c5036); /* Brown gradient */
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -299,24 +299,6 @@
   color: #D7CCC8;
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .elegant-navbar {
-    flex-direction: column;
-    padding: 1rem;
-  }
-  
-  .nav-menu {
-    margin: 1rem 0;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.75rem;
-  }
-  
-  .nav-link {
-    padding: 0.5rem;
-  }
-}
 
 /* css for about */
 
