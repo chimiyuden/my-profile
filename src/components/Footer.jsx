@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-social">
           <a
-            href="https://github.com/cyuelha"
+            href="https://github.com/chimiyuden"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"

@@ -12,7 +12,7 @@ const About = () => {
     { name: "Node.js", level: 50 },
   ];
 
-  return (
+return (
     <section className="professional-about" ref={ref}>
       <motion.div
         className="about-container"
@@ -72,7 +72,7 @@ const About = () => {
                 <p>
                   Future Nursing Student - Apollo College of Nursing, Bhutan
                 </p>
-                <p className="date">Starting 2025 </p>
+                <p className="date">Starting 2025</p>
               </div>
             </motion.div>
 
@@ -87,18 +87,27 @@ const About = () => {
                 <h3>Career Journey</h3>
               </div>
               <div className="card-content">
+                <h4>Ministry of Labour Internship</h4>
+                <p>
+                  Currently gaining valuable government sector experience through a 
+                  one-month internship program
+                </p>
+                <p className="date">Present</p>
+
+                <div className="education-divider"></div>
+
                 <h4>Aspiring Web Developer</h4>
                 <p>
-                  Currently building skills through coursework and personal
-                  projects
+                  Building professional skills through coursework, personal projects,
+                  and real-world experience
                 </p>
-                <p className="date">2025- Present</p>
+                <p className="date">2025-Present</p>
 
                 <div className="education-divider"></div>
 
                 <h4>Military Service</h4>
                 <p>Completed Basic Military Training</p>
-                <p className="date">2024(3 months)</p>
+                <p className="date">2024 (3 months)</p>
               </div>
             </motion.div>
 
